@@ -1,0 +1,40 @@
+.margin {
+    background-color: lightsalmon;
+    width: 700px;
+    height: 300px;
+    border: 1px dashed #000;
+    padding: 5px;
+}
+
+.border {
+    background-color: antiquewhite;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dashed #000;
+    
+}
+
+.padding {
+    background-color: lightgreen;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dashed #000;
+}
+
+.content {
+    background-color: lightskyblue;
+    width: 350px;
+    height: 50px;
+    margin: 50px;
+    padding: 10px;
+    border: 1px dashed #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
