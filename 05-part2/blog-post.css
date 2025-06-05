@@ -1,0 +1,23 @@
+.blog-post {
+    max-width: 600px;
+    position: absolute;
+    left: 25%;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: lightslategray;
+    margin: 20px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: lightslategray;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
