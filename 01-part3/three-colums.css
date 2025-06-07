@@ -1,0 +1,49 @@
+.header {
+    padding: auto;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.laws {
+    display: flex;
+    padding: 1em;
+    flex-flow: row ;
+   
+    justify-content: space-around;
+    margin-left: px;
+}
+
+.first-law {
+    margin: 10px;
+}
+
+.second-law {
+    margin: 10px;
+    margin-left: 90px;
+}
+
+.third-law {
+    margin: 10px;
+    margin-left: 90px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+   margin: 1em;
+   max-width: 80%;
+   text-align: center;
+   margin-left: 100px;
+}
+
+hr {
+    max-width: 10%;
+}
