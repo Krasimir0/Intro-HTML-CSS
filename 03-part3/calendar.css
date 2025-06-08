@@ -1,0 +1,67 @@
+.calendar {
+    border: 3px solid silver;
+    position: absolute;
+    margin: 20%;
+    padding: 10px;
+    width: 90%;
+}
+
+.title {
+    border: 2px solid silver;
+    margin: 3px;
+    text-align: center;
+    padding: 20px;
+    min-width: 150px;
+    padding-right: 20px;
+}
+
+
+.week-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.work-week {
+    display: flex;
+    margin: 0;
+}
+
+.monday {
+    border: 2px solid silver;
+    margin: 3px;
+    padding: 40px;
+    text-align: center;
+}
+
+.tuesday {
+    border: 2px solid silver;
+    margin: 3px;
+    padding: 40px;
+}
+
+.wednesday {
+    border: 2px solid silver;
+    margin: 3px;
+    padding: 40px;
+}
+
+.thursday {
+    border: 2px solid silver;
+    margin: 3px;
+    padding: 40px;
+}
+
+.friday {
+    border: 2px solid silver;
+    margin: 3px;
+    padding: 40px;
+}
+
+.reminders {
+    border: 2px solid silver;
+    padding: 20px;
+    position: absolute;
+    right: -12%;
+    top: 5%;
+}
