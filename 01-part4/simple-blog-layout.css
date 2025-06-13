@@ -1,0 +1,53 @@
+body {
+    background-color: lightgray;
+    padding: 5em;
+}
+
+.blog-container {
+    border: 2px solid snow  ;
+    padding: 2em;
+    background-color: snow;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    border: 2px solid silver;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 4px;
+}
+
+.first-main-container {
+    display: flex;
+}
+
+.first-main {
+    border: 2px solid silver;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 4px;
+    flex-grow: 0.7;
+}
+
+.first-aside {
+    border: 2px solid silver;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 4px;
+    flex-grow: 0.3;
+}
+
+footer {
+    border: 2px solid silver;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 4px;
+}
+
+@media (width < 600px) {
+    .first-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
